@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppCalculo01.Models"
+             x:Class="AppCalculo01.Views.NumerosReais.ValorAbsolutoTeste"
+             Title="Teste você mesmo">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <local:SoftkeyboardDisabledEntry Placeholder="Digite um número" 
+                                                     Grid.Column="0" Grid.Row="2" Grid.RowSpan="2" 
+                                                     x:Name="txtNumero"
+                                                     Focused="TxtNumero_Focused"/>
+
+                <Button Text="Calcular" x:Name="btnCalcular" Clicked="BtnCalcular_Clicked"/>
+
+                <Label Text="" x:Name="lblResultado" VerticalOptions="CenterAndExpand" TextColor="Black"
+                        HorizontalOptions="CenterAndExpand" FontSize="Medium" FontAttributes="Bold"/>
+
+                <Grid x:Name="CustomKeyBoardLayout"
+                                 VerticalOptions="EndAndExpand" 
+                                 Margin="0,0,0,1" IsVisible="False">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button Text="0" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="3" Grid.Column="1"/>
+                    <Button Text="1" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="0" Grid.Column="0"/>
+                    <Button Text="2" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="0" Grid.Column="1"/>
+                    <Button Text="3" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="0" Grid.Column="2"/>
+                    <Button Text="4" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="1" Grid.Column="0"/>
+                    <Button Text="5" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="1" Grid.Column="1"/>
+                    <Button Text="6" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="1" Grid.Column="2"/>
+                    <Button Text="7" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="2" Grid.Column="0"/>
+                    <Button Text="8" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="2" Grid.Column="1"/>
+                    <Button Text="9" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="2" Grid.Column="2"/>
+                    <Button Text="-" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="3" Grid.Column="0"/>
+                    <Button Text="." Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="3" Grid.Column="2"/>
+                    <Button Text="Limpar Tudo"  Clicked="KeyBoardButtonClear_OnClicked" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

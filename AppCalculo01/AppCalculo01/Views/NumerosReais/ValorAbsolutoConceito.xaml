@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCalculo01.Views.NumerosReais.ValorAbsolutoConceito"
+             Title="Conceito">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="5">
+                <Label Text="Definição" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblNotacao01" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="ValorAbsolutoEx01.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblNotacao02" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="ValorAbsolutoEx02.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

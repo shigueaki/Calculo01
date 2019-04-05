@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCalculo01.Views.NumerosReais.IntervalosConceito"
+             Title="Conceito">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="5">
+                <Label Text="Definição" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lbldefinicao" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo01" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label x:Name="lblNotacao01" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo02" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label x:Name="lblNotacao02" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo03" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label x:Name="lblNotacao03" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="IntervalosEx01.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Notações" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblNotacao04" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo04" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label x:Name="lblNotacao05" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="IntervalosEx02.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblNotacao06" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo05" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Image Aspect="Fill" Source="IntervalosEx03.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblExemplo06" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Image Aspect="Fill" Source="IntervalosEx04.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblNotacao07" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo07" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label x:Name="lblNotacao08" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="IntervalosEx05.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblNotacao09" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo08" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Image Aspect="Fill" Source="IntervalosEx06.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblExemplo09" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Image Aspect="Fill" Source="IntervalosEx07.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblNotacao10" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo10" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Image Aspect="Fill" Source="IntervalosEx08.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblExemplo11" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Image Aspect="Fill" Source="IntervalosEx09.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblNotacao11" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo12" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label x:Name="lblNotacaoExtra" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="IntervalosEx10.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblNotacao12" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo13" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label x:Name="lblNotacao13" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo14" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label x:Name="lblNotacao14" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="IntervalosEx11.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblNotacao15" FontSize="Small" TextColor="Black"/>
+                <Label x:Name="lblExemplo15" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label x:Name="lblNotacao16" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="IntervalosEx12.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Conclusão" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblNotacao17" FontSize="Small" TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

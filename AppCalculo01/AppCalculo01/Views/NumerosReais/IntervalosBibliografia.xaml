@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCalculo01.Views.NumerosReais.IntervalosBibliografia"
+             Title="Bibliografia">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="https://www.infoescola.com/matematica/intervalo/"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Margin="0, 15, 0, 0"/>
+            <Label Text="Último acesso em 02/04/2019" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label Text="http://matematicamundo1234.blogspot.com/2014/02/intervalos-numericos.html"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                Margin="0, 15, 0, 0"/>
+            <Label Text="Último acesso em 02/04/2019" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

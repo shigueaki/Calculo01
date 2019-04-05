@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCalculo01.NumerosReais.ConjuntosNumericos"
+            xmlns:Nav1="clr-namespace:AppCalculo01.Views.NumerosReais.ConjuntosNumericos"
+            xmlns:Nav11="clr-namespace:AppCalculo01.Views.NumerosReais"
+            Title="Conjuntos Númericos">
+    <Nav1:ConjuntosNumericosConceito01 Title="Conceito"/>
+    <Nav1:ConjuntosNumericosTeste Title="Teste você mesmo"/>
+    <Nav11:ConjuntosNumericosBibliografia Title="Bibliografia"/>
+</TabbedPage>
