@@ -1,0 +1,23 @@
+{
+    "images" : [
+        {
+            "idiom" : "universal",
+            "scale" : "1x",
+            "filename" : "FuncoesExemplo01@1x.png"
+        },
+        {
+            "idiom" : "universal",
+            "scale" : "2x",
+            "filename" : "FuncoesExemplo01@2x.png"
+        },
+        {
+            "idiom" : "universal",
+            "scale" : "3x",
+            "filename" : "FuncoesExemplo01@3x.png"
+        }
+    ],
+    "info" : {
+        "version" : 1,
+        "author" : "xcode"
+    }
+}

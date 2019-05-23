@@ -15,10 +15,8 @@ namespace AppCalculo01.Models
         Intervalos,
 
         //Funções
-        DefinicaoDeFuncoes,
-        ContraExemplos,
+        Funcoes,
         Graficos,
-        Operacoes,
         FuncoesEspeciais,
         FuncoesParesEImpares,
         FuncoesPeriodicas,

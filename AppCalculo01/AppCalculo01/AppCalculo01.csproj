@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -13,14 +13,31 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xam.Plugin.Iconize" Version="3.2.0.74" />
-    <PackageReference Include="Xam.Plugin.Iconize.FontAwesome" Version="3.2.0.74" />
-    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />  
+    <PackageReference Include="Syncfusion.Xamarin.Calculate" Version="17.1.0.48" />
+    <PackageReference Include="Xam.Plugin.Iconize" Version="3.4.0.100" />
+    <PackageReference Include="Xam.Plugin.Iconize.FontAwesome" Version="3.4.0.100" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\Funcoes\DefinicaoDeFuncoes.xaml.cs">
-      <DependentUpon>DefinicaoDeFuncoes.xaml</DependentUpon>
+    <Reference Include="Mono.Android">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v8.1\Mono.Android.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Funcoes\FuncoesVideo.xaml.cs">
+      <DependentUpon>FuncoesVideo.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Funcoes\Funcoes.xaml.cs">
+      <DependentUpon>Funcoes.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Funcoes\FuncoesBibliografia.xaml.cs">
+      <DependentUpon>FuncoesBibliografia.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Funcoes\FuncoesConceito.xaml.cs">
+      <DependentUpon>FuncoesConceito.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\LimiteEContinuidade\DefinicaoDeLimites.xaml.cs">
       <DependentUpon>DefinicaoDeLimites.xaml</DependentUpon>
@@ -34,10 +51,16 @@
     <EmbeddedResource Update="Views\Funcoes\AlgumasFuncoesElementares.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\Funcoes\ContraExemplos.xaml">
+    <EmbeddedResource Update="Views\Funcoes\FuncoesVideo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\Funcoes\DefinicaoDeFuncoes.xaml">
+    <EmbeddedResource Update="Views\Funcoes\Funcoes.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Funcoes\FuncoesBibliografia.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Funcoes\FuncoesConceito.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Funcoes\Extras\DivisaoDePolinomios.xaml">
@@ -68,9 +91,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Funcoes\Graficos.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\Funcoes\Operacoes.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\LimiteEContinuidade\CalculoDeLimites.xaml">
@@ -136,5 +156,122 @@
     <EmbeddedResource Update="Views\NumerosReais\ValorAbsolutoTeste.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\AlgumasFuncoesElementares.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\ContraExemplos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\DefinicaoDeFuncoes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\Extras\DivisaoDePolinomios.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\Extras\FuncaoConstante.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\Extras\FuncaoDePolinomios.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\Extras\FuncaoIdentidade.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\Extras\FuncaoModulo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\FuncaoInversa.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\FuncoesEspeciais.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\FuncoesParesEImpares.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\FuncoesPeriodicas.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\Graficos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Funcoes\Operacoes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\LimiteEContinuidade\CalculoDeLimites.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\LimiteEContinuidade\DefinicaoDeLimites.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\LimiteEContinuidade\LimitesLaterais.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\LimiteEContinuidade\LimitesNoInfinito.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\LimiteEContinuidade\NocaoIntuitiva.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\LimiteEContinuidade\Proposicao.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\LimiteEContinuidade\PropriedadeDosLimites.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\MainDetailPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\MenuPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\ConjuntosNumericos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\ConjuntosNumericosBibliografia.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\ConjuntosNumericosConceito01.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\ConjuntosNumericosTeste.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\Desigualdades.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\Intervalos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\IntervalosBibliografia.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\IntervalosConceito.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\IntervalosTeste.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\ValorAbsoluto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\ValorAbsolutoBibliografia.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\ValorAbsolutoConceito.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\NumerosReais\ValorAbsolutoTeste.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
 </Project>

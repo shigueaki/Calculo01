@@ -20,7 +20,6 @@ namespace AppCalculo01.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
             LoadApplication(new AppCalculo01.App());
         }
     }

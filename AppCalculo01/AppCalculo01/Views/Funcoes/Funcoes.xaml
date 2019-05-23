@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:Nav1="clr-namespace:AppCalculo01.Views.Funcoes"
+            x:Class="AppCalculo01.Funcoes.DefinicaoDeFuncoes"
+            Title="Definição de Funções">
+    <Nav1:DefinicaoDeFuncoesConceito />
+    <Nav1:DefinicaoDeFuncoesVideo />
+    <Nav1:DefinicaoDeFuncoesBibliografia />
+</TabbedPage>

@@ -1,1 +1,1 @@
-C:\Xamarin\AppCalculo01\AppCalculo01\AppCalculo01.UWP\AppCalculo01.UWP.csproj;x86
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\AppCalculo01.UWP.csproj;x86

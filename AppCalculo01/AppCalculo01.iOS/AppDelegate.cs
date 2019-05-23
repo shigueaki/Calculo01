@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
 using UIKit;
+using Xam.Plugin.WebView.iOS;
 
 namespace AppCalculo01.iOS
 {
@@ -22,6 +22,8 @@ namespace AppCalculo01.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            FormsWebViewRenderer.Initialize();
+
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 

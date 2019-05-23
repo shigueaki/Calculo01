@@ -4,11 +4,7 @@
              x:Class="AppCalculo01.Views.MainDetailPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label x:Name="LabelDoGabriel" Text="Gabriel manja dos PPTXs"
-                TextColor="Green"
-                   BackgroundColor="Blue"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCalculo01.Views.Funcoes.DefinicaoDeFuncoesConceito"
+             Title="Conceito">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Definição" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lbldefinicao" FontSize="Small" TextColor="Black"/>
+                <Label Text="Escrevemos:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblEscrevemos" FontSize="Small" TextColor="Black"/>
+                <Label Text="Exemplos" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblExemplo01" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="FuncoesExemplo01.png" VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblExemplo02" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="FuncoesExemplo02.png" VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Contra-Exemplos" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblContraExemplos01" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="FuncoesExemplo03.png" VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="lblContraExemplos02" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="FuncoesExemplo04.png" VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

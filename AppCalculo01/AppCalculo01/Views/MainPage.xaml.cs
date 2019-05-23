@@ -41,68 +41,62 @@ namespace AppCalculo01.Views
                     case (int)MenuItemType.Intervalos:
                         MenuPages.Add(id, new NavigationPage(new AppCalculo01.NumerosReais.Intervalos()));
                         break;
-                    case (int)MenuItemType.DefinicaoDeFuncoes:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.DefinicaoDeFuncoes()));
-                        break;
-                    case (int)MenuItemType.ContraExemplos:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.ContraExemplos()));
+                    case (int)MenuItemType.Funcoes:
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.DefinicaoDeFuncoes()));
                         break;
                     case (int)MenuItemType.Graficos:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.Graficos()));
-                        break;
-                    case (int)MenuItemType.Operacoes:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.Operacoes()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.Graficos()));
                         break;
                     case (int)MenuItemType.FuncoesEspeciais:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.FuncoesEspeciais()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.FuncoesEspeciais()));
                         break;
                     case (int)MenuItemType.FuncoesParesEImpares:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.FuncoesParesEImpares()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.FuncoesParesEImpares()));
                         break;
                     case (int)MenuItemType.FuncoesPeriodicas:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.FuncoesPeriodicas()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.FuncoesPeriodicas()));
                         break;
                     case (int)MenuItemType.FuncaoInversa:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.FuncaoInversa()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.FuncaoInversa()));
                         break;
                     case (int)MenuItemType.AlgumasFuncoesElementares:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.AlgumasFuncoesElementares()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.AlgumasFuncoesElementares()));
                         break;
                     case (int)MenuItemType.FuncaoConstante:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.Extras.FuncaoConstante()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.Extras.FuncaoConstante()));
                         break;
                     case (int)MenuItemType.FuncaoIdentidade:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.Extras.FuncaoIdentidade()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.Extras.FuncaoIdentidade()));
                         break;
                     case (int)MenuItemType.FuncaoModulo:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.Extras.FuncaoModulo()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.Extras.FuncaoModulo()));
                         break;
                     case (int)MenuItemType.FuncaoDePolinomios:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.Extras.FuncaoDePolinomios()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.Extras.FuncaoDePolinomios()));
                         break;
                     case (int)MenuItemType.DivisaoDePolinomios:
-                        MenuPages.Add(id, new NavigationPage(new Funcoes.Extras.DivisaoDePolinomios()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.Funcoes.Extras.DivisaoDePolinomios()));
                         break;
                     case (int)MenuItemType.NocaoIntuitiva:
-                        MenuPages.Add(id, new NavigationPage(new LimiteEContinuidade.NocaoIntuitiva()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.LimiteEContinuidade.NocaoIntuitiva()));
                         break;
                     case (int)MenuItemType.DefinicaoDeLimite:
-                        MenuPages.Add(id, new NavigationPage(new LimiteEContinuidade.DefinicaoDeLimites()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.LimiteEContinuidade.DefinicaoDeLimites()));
                         break;
                     case (int)MenuItemType.Proposicao:
-                        MenuPages.Add(id, new NavigationPage(new LimiteEContinuidade.Proposicao()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.LimiteEContinuidade.Proposicao()));
                         break;
                     case (int)MenuItemType.PropriedadesDosLimites:
-                        MenuPages.Add(id, new NavigationPage(new LimiteEContinuidade.PropriedadeDosLimites()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.LimiteEContinuidade.PropriedadeDosLimites()));
                         break;
                     case (int)MenuItemType.LimitesLaterais:
-                        MenuPages.Add(id, new NavigationPage(new LimiteEContinuidade.LimitesLaterais()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.LimiteEContinuidade.LimitesLaterais()));
                         break;
                     case (int)MenuItemType.CalculoDeLimites:
-                        MenuPages.Add(id, new NavigationPage(new LimiteEContinuidade.CalculoDeLimites()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.LimiteEContinuidade.CalculoDeLimites()));
                         break;
                     case (int)MenuItemType.LimitesNoInfinito:
-                        MenuPages.Add(id, new NavigationPage(new LimiteEContinuidade.LimitesNoInfinito()));
+                        MenuPages.Add(id, new NavigationPage(new AppCalculo01.LimiteEContinuidade.LimitesNoInfinito()));
                         break;
                 }
             }
