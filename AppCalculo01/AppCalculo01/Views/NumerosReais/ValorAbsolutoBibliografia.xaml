@@ -4,7 +4,7 @@
              x:Class="AppCalculo01.Views.NumerosReais.ValorAbsolutoBibliografia"
              Title="Bibliografia">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="15">
             <Label Text="https://pt.khanacademy.org/math/arithmetic/arith-review-negative-numbers/arith-review-abs-value/a/intro-to-absolute-value"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center"

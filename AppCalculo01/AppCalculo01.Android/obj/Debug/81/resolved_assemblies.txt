@@ -6,6 +6,7 @@ D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\ass
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\mscorlib.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Plugin.Iconize.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Plugin.Iconize.FontAwesome.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Syncfusion.Calculate.Portable.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Core.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Numerics.dll
@@ -47,4 +48,12 @@ D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\ass
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Runtime.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Collections.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.IO.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Globalization.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Threading.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Text.RegularExpressions.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Text.Encoding.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Mono.Security.dll

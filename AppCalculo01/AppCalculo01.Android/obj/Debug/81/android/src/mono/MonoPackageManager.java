@@ -115,6 +115,7 @@ class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"Plugin.Iconize.dll",
 		"Plugin.Iconize.FontAwesome.dll",
+		"Syncfusion.Calculate.Portable.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

@@ -455,7 +455,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.344457": {
+      "Xamarin.Forms/4.0.0.425677": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
@@ -487,7 +487,7 @@
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.0.0.425677"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -1066,7 +1066,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.344457": {
+      "Xamarin.Forms/4.0.0.425677": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
@@ -1098,7 +1098,7 @@
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.0.0.425677"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -1678,7 +1678,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.344457": {
+      "Xamarin.Forms/4.0.0.425677": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
@@ -1710,7 +1710,7 @@
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.0.0.425677"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -2282,7 +2282,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.344457": {
+      "Xamarin.Forms/4.0.0.425677": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
@@ -2314,7 +2314,7 @@
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.0.0.425677"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -2893,7 +2893,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.344457": {
+      "Xamarin.Forms/4.0.0.425677": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
@@ -2925,7 +2925,7 @@
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.0.0.425677"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -3505,7 +3505,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.344457": {
+      "Xamarin.Forms/4.0.0.425677": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
@@ -3537,7 +3537,7 @@
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.0.0.425677"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -4116,7 +4116,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.344457": {
+      "Xamarin.Forms/4.0.0.425677": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
@@ -4148,7 +4148,7 @@
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.0.0.425677"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -4728,7 +4728,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.344457": {
+      "Xamarin.Forms/4.0.0.425677": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
@@ -4760,7 +4760,7 @@
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.0.0.425677"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -9310,7 +9310,7 @@
       ]
     },
     "Win2D.uwp/1.20.0": {
-      "sha512": "qrcwzM/uXVP6Q/NNNdUlttfjAKGNVMAZhPfevHpNClWQeQA9Ouk8cb4maA+4HAYxd54fOw988MpUuCwrPg4c2A==",
+      "sha512": "sFyNT2EiV6vmEFMrkiJdSolaKNyOyk+kfjgvXN8XqUhdEPqBd2zPrFdl7SojNHQGm2Br6JLIBOdrj9fB1Qy4GA==",
       "type": "package",
       "path": "win2d.uwp/1.20.0",
       "files": [
@@ -9434,10 +9434,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/3.6.0.344457": {
-      "sha512": "7IffIKgL0fmgbfCLKzXaFKJ7uOueKiz/BIgmAG1Z5WMn+vMKeALe5GgRs3Uddo670VzllIHWkNEZD3lG+e02bw==",
+    "Xamarin.Forms/4.0.0.425677": {
+      "sha512": "drwO/MimaMUnmvkULASYjU5MRciVIJyiLxD3ihFq8P+DWynQZ2NLNej0Vrs3k2L7UdmqvcgCxEJdfT7uFl2KVg==",
       "type": "package",
-      "path": "xamarin.forms/3.6.0.344457",
+      "path": "xamarin.forms/4.0.0.425677",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9475,6 +9475,26 @@
         "lib/MonoAndroid81/Xamarin.Forms.Xaml.dll",
         "lib/MonoAndroid81/Xamarin.Forms.Xaml.pdb",
         "lib/MonoAndroid81/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/de/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/de/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/es/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/es/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/fr/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/fr/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/it/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/it/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/ja/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/ja/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/ko/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/ko/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/pt-br/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/ru/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/ru/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/zh-Hant/Xamarin.Forms.Xaml.xml",
         "lib/MonoAndroid90/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid90/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid90/FormsViewGroup.dll",
@@ -9488,6 +9508,26 @@
         "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll",
         "lib/MonoAndroid90/Xamarin.Forms.Xaml.pdb",
         "lib/MonoAndroid90/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/de/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/de/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/es/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/es/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/fr/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/fr/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/it/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/it/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ja/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ja/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ko/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ko/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/pt-br/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ru/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ru/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/zh-Hant/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
@@ -9509,27 +9549,43 @@
         "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll",
-        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll",
@@ -9537,8 +9593,12 @@
         "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Xaml.xml",
         "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/netstandard1.0/Xamarin.Forms.Core.dll",
@@ -9557,6 +9617,26 @@
         "lib/netstandard2.0/Xamarin.Forms.Xaml.dll",
         "lib/netstandard2.0/Xamarin.Forms.Xaml.pdb",
         "lib/netstandard2.0/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/de/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/de/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/es/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/es/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/fr/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/fr/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/it/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/it/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ja/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ja/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ko/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ko/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/pt-br/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ru/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ru/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/zh-Hant/Xamarin.Forms.Xaml.xml",
         "lib/tizen40/Design/Xamarin.Forms.Core.Design.dll",
         "lib/tizen40/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/tizen40/Xamarin.Forms.Core.dll",
@@ -9595,7 +9675,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.6.0.344457.nupkg.sha512",
+        "xamarin.forms.4.0.0.425677.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -9613,12 +9693,12 @@
       "Xam.Plugin.Iconize >= 3.4.0.100",
       "Xam.Plugin.Iconize.FontAwesome >= 3.4.0.100",
       "Xamarin.Essentials >= 1.1.0",
-      "Xamarin.Forms >= 3.6.0.344457"
+      "Xamarin.Forms >= 4.0.0.425677"
     ]
   },
   "packageFolders": {
     "C:\\Users\\Cliente\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
@@ -9632,7 +9712,7 @@
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
@@ -9682,7 +9762,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.6.0.344457, )"
+            "version": "[4.0.0.425677, )"
           }
         },
         "imports": [

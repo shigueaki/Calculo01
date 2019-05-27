@@ -50,3 +50,8 @@ D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01\bin\Debug\netstandard2.0\Mono.An
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01\bin\Debug\netstandard2.0\Mono.Android.pdb
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01\bin\Debug\netstandard2.0\Mono.Android.xml
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01\obj\Debug\netstandard2.0\AppCalculo01.csproj.CopyComplete
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01\obj\Debug\netstandard2.0\Views\Funcoes\GraficosBibliografia.xaml.g.cs
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01\obj\Debug\netstandard2.0\Views\Funcoes\GraficosConceito.xaml.g.cs
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01\obj\Debug\netstandard2.0\Views\Funcoes\GraficosTeste.xaml.g.cs
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01\obj\Debug\netstandard2.0\Views\Funcoes\GraficosVideo.xaml.g.cs

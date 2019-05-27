@@ -70,3 +70,5 @@ D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\obj\x86\Debug\.winmd_cache\$
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\Xamarin.Essentials.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\Xamarin.Essentials.pdb
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\Syncfusion.Calculate.Portable.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160787180000000.json

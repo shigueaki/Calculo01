@@ -14,7 +14,7 @@
         "outputPath": "D:\\Repos\\AppCalculo01\\AppCalculo01\\AppCalculo01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -67,7 +67,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.344457, )"
+              "version": "[4.0.0.425677, )"
             }
           },
           "imports": [

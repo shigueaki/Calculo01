@@ -4,7 +4,7 @@
              x:Class="AppCalculo01.Views.NumerosReais.IntervalosBibliografia"
              Title="Bibliografia">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="15">
             <Label Text="https://www.infoescola.com/matematica/intervalo/"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center"

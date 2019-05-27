@@ -4,7 +4,7 @@
              x:Class="AppCalculo01.Views.Funcoes.DefinicaoDeFuncoesVideo"
              Title="Vídeo">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="20" BackgroundColor="White">
             <WebView x:Name="navegador" Source="http://xamarin.com/"                      
                      VerticalOptions="CenterAndExpand"
                      HorizontalOptions="FillAndExpand"

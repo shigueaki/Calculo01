@@ -4,22 +4,31 @@
              x:Class="AppCalculo01.Views.Funcoes.DefinicaoDeFuncoesConceito"
              Title="Conceito">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-                <Label Text="Definição" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
-                <Label x:Name="lbldefinicao" FontSize="Small" TextColor="Black"/>
+        <ScrollView Orientation="Vertical">
+            <StackLayout Padding="20" BackgroundColor="White">
+                <Label Text="Definição:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lbldefinicao01" FontSize="Small" TextColor="Black"/>
                 <Label Text="Escrevemos:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
                 <Label x:Name="lblEscrevemos" FontSize="Small" TextColor="Black"/>
                 <Label Text="Exemplos" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
                 <Label x:Name="lblExemplo01" FontSize="Small" TextColor="Black"/>
-                <Image Aspect="Fill" Source="FuncoesExemplo01.png" VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Image Aspect="Fill" Source="FuncoesExemplo01.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
                 <Label x:Name="lblExemplo02" FontSize="Small" TextColor="Black"/>
-                <Image Aspect="Fill" Source="FuncoesExemplo02.png" VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Image Aspect="Fill" Source="FuncoesExemplo02.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
                 <Label Text="Contra-Exemplos" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
                 <Label x:Name="lblContraExemplos01" FontSize="Small" TextColor="Black"/>
-                <Image Aspect="Fill" Source="FuncoesExemplo03.png" VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Image Aspect="Fill" Source="FuncoesExemplo03.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
                 <Label x:Name="lblContraExemplos02" FontSize="Small" TextColor="Black"/>
-                <Image Aspect="Fill" Source="FuncoesExemplo04.png" VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Image Aspect="Fill" Source="FuncoesExemplo04.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
+
+                <Label Text="Definição:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lbldefinicao03" FontSize="Small" TextColor="Black"/>
+                <Label Text="Exemplos:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblExemplo03" FontSize="Small" TextColor="Black"/>
+                <Label Text="Exemplos:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblExemplo04" FontSize="Small" TextColor="Black"/>
+                <Label Text="Exemplos:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblExemplo05" FontSize="Small" TextColor="Black"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

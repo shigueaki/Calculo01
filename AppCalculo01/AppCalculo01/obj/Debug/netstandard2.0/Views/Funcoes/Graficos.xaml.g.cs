@@ -14,7 +14,7 @@ namespace AppCalculo01.Funcoes {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Funcoes\\Graficos.xaml")]
-    public partial class Graficos : global::Xamarin.Forms.ContentPage {
+    public partial class Graficos : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {

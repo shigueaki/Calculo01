@@ -4,7 +4,7 @@
              x:Class="AppCalculo01.Views.NumerosReais.ConjuntosNumericos.ConjuntosNumericosConceito01">
     <ContentPage.Content>
         <ScrollView Orientation="Vertical">
-            <StackLayout Padding="20" BindingContext="ConceitoItem">
+            <StackLayout Padding="20" BindingContext="ConceitoItem" BackgroundColor="White">
                 
                 <Label Text="Definição" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
                 <Label x:Name="lbldefinicao" FontSize="Small" TextColor="Black"/>

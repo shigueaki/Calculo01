@@ -4,8 +4,8 @@
              x:Class="AppCalculo01.Views.NumerosReais.IntervalosConceito"
              Title="Conceito">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="5">
+        <ScrollView Orientation="Vertical">
+            <StackLayout Padding="20" BackgroundColor="White">
                 <Label Text="Definição" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
                 <Label x:Name="lbldefinicao" FontSize="Small" TextColor="Black"/>
                 <Label x:Name="lblExemplo01" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>

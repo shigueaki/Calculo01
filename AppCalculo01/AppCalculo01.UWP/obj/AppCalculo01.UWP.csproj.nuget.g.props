@@ -3,11 +3,11 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
-    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\obj\project.assets.json</ProjectAssetsFile>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Cliente\.nuget\packages\;C:\ProgramData\Xamarin\NuGet\;C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Cliente\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\;C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.0.2</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.1.0</NuGetToolVersion>
   </PropertyGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -27,7 +27,7 @@
     <Import Project="C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.uwpcoreruntimesdk\2.2.8\build\Microsoft.Net.UWPCoreRuntimeSdk.props" Condition="Exists('C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.uwpcoreruntimesdk\2.2.8\build\Microsoft.Net.UWPCoreRuntimeSdk.props')" />
     <Import Project="C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.3\build\Microsoft.Net.Native.Compiler.props" Condition="Exists('C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.3\build\Microsoft.Net.Native.Compiler.props')" />
     <Import Project="C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.universalwindowsplatform\6.2.8\build\Microsoft.NETCore.UniversalWindowsPlatform.props" Condition="Exists('C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.universalwindowsplatform\6.2.8\build\Microsoft.NETCore.UniversalWindowsPlatform.props')" />
-    <Import Project="$(NuGetPackageRoot)xamarin.forms\3.6.0.344457\build\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\3.6.0.344457\build\Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\4.0.0.425677\build\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\4.0.0.425677\build\Xamarin.Forms.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk Condition=" '$(Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk)' == '' ">C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8</Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk>

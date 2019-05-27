@@ -156,7 +156,7 @@
     <PackageReference Include="Xamarin.Essentials">
       <Version>1.1.0</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -275,5 +275,32 @@
     <BundleResource Include="Resources\FuncoesExemplo02.png" />
     <BundleResource Include="Resources\FuncoesExemplo02%402x.png" />
     <BundleResource Include="Resources\FuncoesExemplo02%403x.png" />
+    <BundleResource Include="Resources\GraficoExemplo01.png" />
+    <BundleResource Include="Resources\GraficoExemplo01%402x.png" />
+    <BundleResource Include="Resources\GraficoExemplo01%403x.png" />
+    <BundleResource Include="Resources\GraficoExemplo02.png" />
+    <BundleResource Include="Resources\GraficoExemplo02%402x.png" />
+    <BundleResource Include="Resources\GraficoExemplo02%403x.png" />
+    <BundleResource Include="Resources\GraficoExemplo03.png" />
+    <BundleResource Include="Resources\GraficoExemplo03%402x.png" />
+    <BundleResource Include="Resources\GraficoExemplo03%403x.png" />
+    <BundleResource Include="Resources\GraficoExemplo04.png" />
+    <BundleResource Include="Resources\GraficoExemplo04%402x.png" />
+    <BundleResource Include="Resources\GraficoExemplo04%403x.png" />
+    <BundleResource Include="Resources\GraficoExemplo05.png" />
+    <BundleResource Include="Resources\GraficoExemplo05%402x.png" />
+    <BundleResource Include="Resources\GraficoExemplo05%403x.png" />
+    <BundleResource Include="Resources\GraficoExemplo06.png" />
+    <BundleResource Include="Resources\GraficoExemplo06%402x.png" />
+    <BundleResource Include="Resources\GraficoExemplo06%403x.png" />
+    <BundleResource Include="Resources\GraficoExemplo07.png" />
+    <BundleResource Include="Resources\GraficoExemplo07%402x.png" />
+    <BundleResource Include="Resources\GraficoExemplo07%403x.png" />
+    <BundleResource Include="Resources\GraficoExemplo08.png" />
+    <BundleResource Include="Resources\GraficoExemplo08%402x.png" />
+    <BundleResource Include="Resources\GraficoExemplo08%403x.png" />
+    <BundleResource Include="Resources\GraficoExemplo021.png" />
+    <BundleResource Include="Resources\GraficoExemplo021%402x.png" />
+    <BundleResource Include="Resources\GraficoExemplo021%403x.png" />
   </ItemGroup>
 </Project>

@@ -924,6 +924,8 @@ namespace AppCalculo01.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::AppCalculo01.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::AppCalculo01.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::AppCalculo01.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::AppCalculo01.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::AppCalculo01.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::AppCalculo01.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::AppCalculo01.Droid.Resource.Id.ghost_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::AppCalculo01.Droid.Resource.Id.home;
@@ -4431,6 +4433,33 @@ namespace AppCalculo01.Droid
 			// aapt resource value: 0x7F010008
 			public const int FuncoesExemplo04 = 2130771976;
 			
+			// aapt resource value: 0x7F010009
+			public const int GraficoExemplo01 = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int GraficoExemplo02 = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int GraficoExemplo021 = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int GraficoExemplo03 = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int GraficoExemplo04 = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int GraficoExemplo05 = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int GraficoExemplo06 = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int GraficoExemplo07 = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int GraficoExemplo08 = 2130771991;
+			
 			// aapt resource value: 0x7F010002
 			public const int icon = 2130771970;
 			
@@ -4965,38 +4994,38 @@ namespace AppCalculo01.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010009
-			public const int IntervalosEx01 = 2130771977;
-			
-			// aapt resource value: 0x7F010010
-			public const int IntervalosEx03 = 2130771984;
-			
-			// aapt resource value: 0x7F010011
-			public const int IntervalosEx04 = 2130771985;
-			
-			// aapt resource value: 0x7F010012
-			public const int IntervalosEx05 = 2130771986;
-			
-			// aapt resource value: 0x7F010013
-			public const int IntervalosEx06 = 2130771987;
-			
-			// aapt resource value: 0x7F010014
-			public const int IntervalosEx07 = 2130771988;
-			
-			// aapt resource value: 0x7F010015
-			public const int IntervalosEx08 = 2130771989;
-			
-			// aapt resource value: 0x7F010016
-			public const int IntervalosEx09 = 2130771990;
-			
-			// aapt resource value: 0x7F010017
-			public const int IntervalosEx10 = 2130771991;
-			
 			// aapt resource value: 0x7F010018
-			public const int IntervalosEx11 = 2130771992;
+			public const int IntervalosEx01 = 2130771992;
 			
 			// aapt resource value: 0x7F010019
-			public const int IntervalosEx12 = 2130771993;
+			public const int IntervalosEx03 = 2130771993;
+			
+			// aapt resource value: 0x7F010020
+			public const int IntervalosEx04 = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int IntervalosEx05 = 2130772001;
+			
+			// aapt resource value: 0x7F010022
+			public const int IntervalosEx06 = 2130772002;
+			
+			// aapt resource value: 0x7F010023
+			public const int IntervalosEx07 = 2130772003;
+			
+			// aapt resource value: 0x7F010024
+			public const int IntervalosEx08 = 2130772004;
+			
+			// aapt resource value: 0x7F010025
+			public const int IntervalosEx09 = 2130772005;
+			
+			// aapt resource value: 0x7F010026
+			public const int IntervalosEx10 = 2130772006;
+			
+			// aapt resource value: 0x7F010027
+			public const int IntervalosEx11 = 2130772007;
+			
+			// aapt resource value: 0x7F010028
+			public const int IntervalosEx12 = 2130772008;
 			
 			// aapt resource value: 0x7F010003
 			public const int MathLogo = 2130771971;
@@ -5106,11 +5135,11 @@ namespace AppCalculo01.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010020
-			public const int ValorAbsolutoEx01 = 2130772000;
+			// aapt resource value: 0x7F010029
+			public const int ValorAbsolutoEx01 = 2130772009;
 			
-			// aapt resource value: 0x7F010021
-			public const int ValorAbsolutoEx02 = 2130772001;
+			// aapt resource value: 0x7F010030
+			public const int ValorAbsolutoEx02 = 2130772016;
 			
 			// aapt resource value: 0x7F010004
 			public const int xamarin_logo = 2130771972;
@@ -5285,10 +5314,10 @@ namespace AppCalculo01.Droid
 			public const int @fixed = 2131492914;
 			
 			// aapt resource value: 0x7F020176
-			public const int flyoutcontent.appbar = 2130837878;
+			public const int flyoutcontent_appbar = 2130837878;
 			
 			// aapt resource value: 0x7F020177
-			public const int flyoutcontent.recycler = 2130837879;
+			public const int flyoutcontent_recycler = 2130837879;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;

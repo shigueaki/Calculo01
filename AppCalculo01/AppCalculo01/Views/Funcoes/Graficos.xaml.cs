@@ -10,8 +10,8 @@ using Xamarin.Forms.Xaml;
 namespace AppCalculo01.Funcoes
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Graficos : ContentPage
-	{
+    public partial class Graficos : TabbedPage
+    {
 		public Graficos ()
 		{
 			InitializeComponent ();

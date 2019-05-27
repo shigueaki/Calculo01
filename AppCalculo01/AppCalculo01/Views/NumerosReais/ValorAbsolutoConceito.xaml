@@ -4,8 +4,8 @@
              x:Class="AppCalculo01.Views.NumerosReais.ValorAbsolutoConceito"
              Title="Conceito">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="5">
+        <ScrollView Orientation="Vertical">
+            <StackLayout Padding="20" BackgroundColor="White">
                 <Label Text="Definição" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
                 <Label x:Name="lblNotacao01" FontSize="Small" TextColor="Black"/>
                 <Image Aspect="Fill" Source="ValorAbsolutoEx01.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>

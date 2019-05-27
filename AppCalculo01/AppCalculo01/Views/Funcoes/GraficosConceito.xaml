@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppCalculo01.Views.Funcoes.GraficosConceito"
+             Title="Conceito">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout Padding="20" BackgroundColor="White">
+                <Label Text="Definição:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lbldefinicao01" FontSize="Small" TextColor="Black"/>
+                <Label Text="Exemplos:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblExemplo01" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="GraficoExemplo01.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
+                <Label x:Name="lblExemplo02" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="GraficoExemplo02.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
+                <Label x:Name="lblExemplo03" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="GraficoExemplo021.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
+                <Image Aspect="Fill" Source="GraficoExemplo03.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
+                <Label x:Name="lblExemplo04" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="GraficoExemplo04.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
+                <Label x:Name="lblExemplo05" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="GraficoExemplo05.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
+                <Label x:Name="lblExemplo06" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="GraficoExemplo06.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
+                <Label x:Name="lblExemplo07" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="GraficoExemplo07.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
+                <Label x:Name="lblExemplo08" FontSize="Small" TextColor="Black"/>
+                <Image Aspect="Fill" Source="GraficoExemplo08.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" WidthRequest="80"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
