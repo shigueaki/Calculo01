@@ -16,7 +16,7 @@ namespace AppCalculo01.Views.Funcoes {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Funcoes\\GraficosBibliografia.xaml")]
     public partial class GraficosBibliografia : global::Xamarin.Forms.ContentPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(GraficosBibliografia));
         }

@@ -16,19 +16,19 @@ namespace AppCalculo01.Views.NumerosReais {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\NumerosReais\\ValorAbsolutoTeste.xaml")]
     public partial class ValorAbsolutoTeste : global::Xamarin.Forms.ContentPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private global::AppCalculo01.Models.SoftkeyboardDisabledEntry txtNumero;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private global::Xamarin.Forms.Button btnCalcular;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private global::Xamarin.Forms.Label lblResultado;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private global::Xamarin.Forms.Grid CustomKeyBoardLayout;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ValorAbsolutoTeste));
             txtNumero = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::AppCalculo01.Models.SoftkeyboardDisabledEntry>(this, "txtNumero");

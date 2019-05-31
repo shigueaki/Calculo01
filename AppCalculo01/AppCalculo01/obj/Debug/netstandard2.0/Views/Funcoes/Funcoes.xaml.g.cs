@@ -16,7 +16,7 @@ namespace AppCalculo01.Funcoes {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Funcoes\\Funcoes.xaml")]
     public partial class DefinicaoDeFuncoes : global::Xamarin.Forms.TabbedPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DefinicaoDeFuncoes));
         }

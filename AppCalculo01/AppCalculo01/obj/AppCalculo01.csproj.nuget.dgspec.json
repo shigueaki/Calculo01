@@ -43,11 +43,31 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microcharts": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "SkiaSharp.Views": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[1.68.0, )"
             },
             "Syncfusion.Xamarin.Calculate": {
               "target": "Package",
@@ -67,7 +87,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.425677, )"
+              "version": "[4.0.0.471375, )"
             }
           },
           "imports": [

@@ -2,10 +2,16 @@ D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\ass
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\AppCalculo01.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Java.Interop.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Microcharts.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Microcharts.Droid.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Microcharts.Forms.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Mono.Android.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\mscorlib.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Plugin.Iconize.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Plugin.Iconize.FontAwesome.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\SkiaSharp.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\SkiaSharp.Views.Android.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\SkiaSharp.Views.Forms.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\Syncfusion.Calculate.Portable.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Core.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.dll
@@ -50,7 +56,9 @@ D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\ass
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Web.Services.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Runtime.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Collections.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.ValueTuple.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Linq.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.IO.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Globalization.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.Android\obj\Debug\81\android\assets\System.Threading.dll

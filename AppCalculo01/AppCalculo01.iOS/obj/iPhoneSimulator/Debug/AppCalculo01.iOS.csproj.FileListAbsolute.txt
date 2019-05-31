@@ -63,3 +63,9 @@ D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.iOS\obj\iPhoneSimulator\Debug\Xa
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.iOS\obj\iPhoneSimulator\Debug\AppCalculo01.iOS.csproj.CopyComplete
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.iOS\obj\iPhoneSimulator\Debug\AppCalculo01.iOS.exe
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.iOS\obj\iPhoneSimulator\Debug\AppCalculo01.iOS.pdb
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.iOS\bin\iPhoneSimulator\Debug\SkiaSharp.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.iOS\bin\iPhoneSimulator\Debug\SkiaSharp.Views.iOS.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.iOS\bin\iPhoneSimulator\Debug\SkiaSharp.Views.Forms.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.iOS\bin\iPhoneSimulator\Debug\Microcharts.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.iOS\bin\iPhoneSimulator\Debug\Microcharts.iOS.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.iOS\bin\iPhoneSimulator\Debug\Microcharts.Forms.dll

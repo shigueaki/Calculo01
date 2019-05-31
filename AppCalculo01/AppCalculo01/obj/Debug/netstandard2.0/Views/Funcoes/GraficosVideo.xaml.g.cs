@@ -16,9 +16,17 @@ namespace AppCalculo01.Views.Funcoes {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Funcoes\\GraficosVideo.xaml")]
     public partial class GraficosVideo : global::Xamarin.Forms.ContentPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
+        private global::Xamarin.Forms.WebView navegador;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
+        private global::Xamarin.Forms.Button btnAssistirNoYoutube;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(GraficosVideo));
+            navegador = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.WebView>(this, "navegador");
+            btnAssistirNoYoutube = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnAssistirNoYoutube");
         }
     }
 }

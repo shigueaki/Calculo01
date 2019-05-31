@@ -2,6 +2,91 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        }
+      },
+      "SkiaSharp/1.68.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/tizen-armel/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-armel"
+          },
+          "runtimes/tizen-x86/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-x86"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SkiaSharp.Views/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "Xamarin.Forms": "3.3.0.912540"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.Calculate/17.1.0.48": {
         "type": "package",
         "compile": {
@@ -12,6 +97,15 @@
         }
       },
       "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -77,7 +171,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.0.0.425677": {
+      "Xamarin.Forms/4.0.0.471375": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -204,11 +298,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "SkiaSharp.Views.Forms": "1.68.0",
           "Syncfusion.Xamarin.Calculate": "17.1.0.48",
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.471375"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -219,6 +318,69 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        }
+      },
+      "SkiaSharp/1.68.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "Xamarin.Forms": "3.3.0.912540"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.Calculate/17.1.0.48": {
         "type": "package",
         "compile": {
@@ -229,6 +391,15 @@
         }
       },
       "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -294,7 +465,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.0.0.425677": {
+      "Xamarin.Forms/4.0.0.471375": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -421,11 +592,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "SkiaSharp.Views.Forms": "1.68.0",
           "Syncfusion.Xamarin.Calculate": "17.1.0.48",
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.471375"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -436,6 +612,72 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        }
+      },
+      "SkiaSharp/1.68.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/libSkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "Xamarin.Forms": "3.3.0.912540"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.Calculate/17.1.0.48": {
         "type": "package",
         "compile": {
@@ -446,6 +688,15 @@
         }
       },
       "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -511,7 +762,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.0.0.425677": {
+      "Xamarin.Forms/4.0.0.471375": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -638,11 +889,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "SkiaSharp.Views.Forms": "1.68.0",
           "Syncfusion.Xamarin.Calculate": "17.1.0.48",
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.471375"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -653,6 +909,72 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        }
+      },
+      "SkiaSharp/1.68.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.dll": {}
+        },
+        "native": {
+          "runtimes/win-x86/native/libSkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "Xamarin.Forms": "3.3.0.912540"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.Calculate/17.1.0.48": {
         "type": "package",
         "compile": {
@@ -663,6 +985,15 @@
         }
       },
       "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -728,7 +1059,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.0.0.425677": {
+      "Xamarin.Forms/4.0.0.471375": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -855,11 +1186,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "SkiaSharp.Views.Forms": "1.68.0",
           "Syncfusion.Xamarin.Calculate": "17.1.0.48",
           "Xam.Plugin.Iconize": "3.4.0.100",
           "Xam.Plugin.Iconize.FontAwesome": "3.4.0.100",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.471375"
         },
         "compile": {
           "bin/placeholder/AppCalculo01.dll": {}
@@ -871,6 +1207,145 @@
     }
   },
   "libraries": {
+    "Microcharts/0.7.1": {
+      "sha512": "Py79bYXqvsqthZtk1ChdDhy/n4mb7T2CKjzTVU7ldj4dnjgFC2nbOJMGeAJkDk1lZPoQPSPx3obSq7S29Zrt8g==",
+      "type": "package",
+      "path": "microcharts/0.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Microcharts.Droid.dll",
+        "lib/MonoAndroid10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.iOS.dll",
+        "lib/netstandard1.4/Microcharts.dll",
+        "lib/uap/Microcharts.Uwp.dll",
+        "lib/uap/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.macOS.dll",
+        "microcharts.0.7.1.nupkg.sha512",
+        "microcharts.nuspec"
+      ]
+    },
+    "Microcharts.Forms/0.7.1": {
+      "sha512": "/oeY4j/x3I8PY6sNV3B6CHKdvZl3cJHxfkxIKSPaX86bc50mq1C0L+LqVnbRMwMa1PpywPtwL1+aqlKGM8bL3w==",
+      "type": "package",
+      "path": "microcharts.forms/0.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.4/Microcharts.Forms.dll",
+        "microcharts.forms.0.7.1.nupkg.sha512",
+        "microcharts.forms.nuspec"
+      ]
+    },
+    "SkiaSharp/1.68.0": {
+      "sha512": "ptuxAKk9FiClNnAgWM8hVMCYw/B0hUJWZ8W6efnIAtJmJn/Xl4jvxxDF5WOqfQYCLVzxXw5gvBPVxvTLblFp0g==",
+      "type": "package",
+      "path": "skiasharp/1.68.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net45/SkiaSharp.targets",
+        "build/tizen40/SkiaSharp.targets",
+        "lib/MonoAndroid/SkiaSharp.dll",
+        "lib/MonoAndroid/SkiaSharp.xml",
+        "lib/Xamarin.Mac20/SkiaSharp.dll",
+        "lib/Xamarin.Mac20/SkiaSharp.xml",
+        "lib/Xamarin.TVOS/SkiaSharp.dll",
+        "lib/Xamarin.TVOS/SkiaSharp.xml",
+        "lib/Xamarin.WatchOS/SkiaSharp.dll",
+        "lib/Xamarin.WatchOS/SkiaSharp.xml",
+        "lib/Xamarin.iOS/SkiaSharp.dll",
+        "lib/Xamarin.iOS/SkiaSharp.xml",
+        "lib/net45/SkiaSharp.dll",
+        "lib/net45/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/tizen40/SkiaSharp.dll",
+        "lib/tizen40/SkiaSharp.xml",
+        "lib/uap10.0/SkiaSharp.dll",
+        "lib/uap10.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/tizen-armel/native/libSkiaSharp.so",
+        "runtimes/tizen-x86/native/libSkiaSharp.so",
+        "runtimes/win-x64/native/libSkiaSharp.dll",
+        "runtimes/win-x86/native/libSkiaSharp.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "skiasharp.1.68.0.nupkg.sha512",
+        "skiasharp.nuspec",
+        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "SkiaSharp.Views/1.68.0": {
+      "sha512": "tCpeBURfS3knCdB3lz1Ck6HQ5jXRT2CPWrT8QJb1PWhcx1SHm9iLWvcv2cu1Z5blkDuLZ1hREnxd07Mx+xS74Q==",
+      "type": "package",
+      "path": "skiasharp.views/1.68.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid/SkiaSharp.Views.Android.dll",
+        "lib/MonoAndroid/SkiaSharp.Views.Android.xml",
+        "lib/Xamarin.Mac20/SkiaSharp.Views.Mac.dll",
+        "lib/Xamarin.Mac20/SkiaSharp.Views.Mac.xml",
+        "lib/Xamarin.TVOS/SkiaSharp.Views.tvOS.dll",
+        "lib/Xamarin.TVOS/SkiaSharp.Views.tvOS.xml",
+        "lib/Xamarin.WatchOS/SkiaSharp.Views.watchOS.dll",
+        "lib/Xamarin.WatchOS/SkiaSharp.Views.watchOS.xml",
+        "lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll",
+        "lib/Xamarin.iOS/SkiaSharp.Views.iOS.xml",
+        "lib/net45/SkiaSharp.Views.Desktop.dll",
+        "lib/net45/SkiaSharp.Views.Desktop.xml",
+        "lib/net45/SkiaSharp.Views.Gtk.dll",
+        "lib/net45/SkiaSharp.Views.Gtk.xml",
+        "lib/net45/SkiaSharp.Views.WPF.dll",
+        "lib/net45/SkiaSharp.Views.WPF.xml",
+        "lib/tizen40/SkiaSharp.Views.Tizen.dll",
+        "lib/tizen40/SkiaSharp.Views.Tizen.xml",
+        "lib/uap10.0/SkiaSharp.Views.UWP.dll",
+        "lib/uap10.0/SkiaSharp.Views.UWP.xml",
+        "runtimes/win10-arm/nativeassets/uap10.0/SkiaSharp.Views.Interop.UWP.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/SkiaSharp.Views.Interop.UWP.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/SkiaSharp.Views.Interop.UWP.dll",
+        "skiasharp.views.1.68.0.nupkg.sha512",
+        "skiasharp.views.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.Forms/1.68.0": {
+      "sha512": "VqxL96ywOA9HUj1MAEO6yvSzg4Tk03ZHvvxQFhbUKgCodDxk9lIUxmBcssTZ/wYjOUn9R2Lf/VIpDMQZlhVh/A==",
+      "type": "package",
+      "path": "skiasharp.views.forms/1.68.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid/SkiaSharp.Views.Forms.dll",
+        "lib/MonoAndroid/SkiaSharp.Views.Forms.xml",
+        "lib/Xamarin.Mac20/SkiaSharp.Views.Forms.dll",
+        "lib/Xamarin.Mac20/SkiaSharp.Views.Forms.xml",
+        "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll",
+        "lib/Xamarin.iOS/SkiaSharp.Views.Forms.xml",
+        "lib/netstandard1.3/SkiaSharp.Views.Forms.dll",
+        "lib/netstandard1.3/SkiaSharp.Views.Forms.xml",
+        "lib/tizen40/SkiaSharp.Views.Forms.dll",
+        "lib/tizen40/SkiaSharp.Views.Forms.xml",
+        "lib/uap10.0/SkiaSharp.Views.Forms.dll",
+        "lib/uap10.0/SkiaSharp.Views.Forms.xml",
+        "skiasharp.views.forms.1.68.0.nupkg.sha512",
+        "skiasharp.views.forms.nuspec"
+      ]
+    },
     "Syncfusion.Xamarin.Calculate/17.1.0.48": {
       "sha512": "O4VoBsOjAtMyFp3Mva6VJcGSYWrqGvK11J4nm6uoIIfq4Ni6mVDHtVOmr1vZ0g9PT26N6GwSXk6DRkkZaB8b7A==",
       "type": "package",
@@ -929,6 +1404,51 @@
         "ref/xamarinwatchos10/_._",
         "system.numerics.vectors.4.5.0.nupkg.sha512",
         "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.4.0": {
+      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net461/System.ValueTuple.xml",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -1038,10 +1558,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.0.0.425677": {
-      "sha512": "drwO/MimaMUnmvkULASYjU5MRciVIJyiLxD3ihFq8P+DWynQZ2NLNej0Vrs3k2L7UdmqvcgCxEJdfT7uFl2KVg==",
+    "Xamarin.Forms/4.0.0.471375": {
+      "sha512": "qwB/Fxp9ESUIxEXfdqGjaeRX4Ow9jsDYGp7eXjPix68n1BCDuTv6rDyakzxy7GgF16F4Izr52G5jJewnC/W5/w==",
       "type": "package",
-      "path": "xamarin.forms/4.0.0.425677",
+      "path": "xamarin.forms/4.0.0.471375",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1279,7 +1799,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.0.0.425677.nupkg.sha512",
+        "xamarin.forms.4.0.0.471375.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1292,11 +1812,16 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "AppCalculo01 >= 1.0.0",
+      "Microcharts >= 0.7.1",
+      "Microcharts.Forms >= 0.7.1",
+      "SkiaSharp >= 1.68.0",
+      "SkiaSharp.Views >= 1.68.0",
+      "SkiaSharp.Views.Forms >= 1.68.0",
       "Syncfusion.Xamarin.Calculate >= 17.1.0.48",
       "Xam.Plugin.Iconize >= 3.4.0.100",
       "Xam.Plugin.Iconize.FontAwesome >= 3.4.0.100",
       "Xamarin.Essentials >= 1.1.0",
-      "Xamarin.Forms >= 4.0.0.425677"
+      "Xamarin.Forms >= 4.0.0.471375"
     ]
   },
   "packageFolders": {
@@ -1341,6 +1866,26 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Microcharts": {
+            "target": "Package",
+            "version": "[0.7.1, )"
+          },
+          "Microcharts.Forms": {
+            "target": "Package",
+            "version": "[0.7.1, )"
+          },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[1.68.0, )"
+          },
+          "SkiaSharp.Views": {
+            "target": "Package",
+            "version": "[1.68.0, )"
+          },
+          "SkiaSharp.Views.Forms": {
+            "target": "Package",
+            "version": "[1.68.0, )"
+          },
           "Syncfusion.Xamarin.Calculate": {
             "target": "Package",
             "version": "[17.1.0.48, )"
@@ -1359,7 +1904,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.0.0.425677, )"
+            "version": "[4.0.0.471375, )"
           }
         }
       }

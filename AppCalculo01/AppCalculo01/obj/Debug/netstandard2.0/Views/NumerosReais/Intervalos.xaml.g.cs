@@ -16,7 +16,7 @@ namespace AppCalculo01.NumerosReais {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\NumerosReais\\Intervalos.xaml")]
     public partial class Intervalos : global::Xamarin.Forms.TabbedPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Intervalos));
         }

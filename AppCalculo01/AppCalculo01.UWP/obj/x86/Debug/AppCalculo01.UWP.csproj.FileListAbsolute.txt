@@ -72,3 +72,9 @@ D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\Xamarin.Essent
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\Syncfusion.Calculate.Portable.dll
 D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160787180000000.json
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\SkiaSharp.Views.Interop.UWP.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\SkiaSharp.Views.UWP.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\SkiaSharp.Views.Forms.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\Microcharts.Uwp.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\Microcharts.dll
+D:\Repos\AppCalculo01\AppCalculo01\AppCalculo01.UWP\bin\x86\Debug\Microcharts.Forms.dll

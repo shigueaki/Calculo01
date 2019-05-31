@@ -16,7 +16,7 @@ namespace AppCalculo01.Views.NumerosReais {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\NumerosReais\\IntervalosBibliografia.xaml")]
     public partial class IntervalosBibliografia : global::Xamarin.Forms.ContentPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(IntervalosBibliografia));
         }

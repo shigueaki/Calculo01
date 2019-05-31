@@ -1336,6 +1336,7 @@ int string abc_toolbar_collapse_description 0x7f0b0025
 int string appbar_scrolling_view_behavior 0x7f0b0033
 int string bottom_sheet_behavior 0x7f0b0034
 int string character_counter_pattern 0x7f0b0035
+int string library_name 0x7f0b003c
 int string mr_button_content_description 0x7f0b0000
 int string mr_cast_button_connected 0x7f0b0001
 int string mr_cast_button_connecting 0x7f0b0002

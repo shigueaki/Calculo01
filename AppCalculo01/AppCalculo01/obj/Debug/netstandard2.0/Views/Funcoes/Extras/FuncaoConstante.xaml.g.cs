@@ -16,7 +16,7 @@ namespace AppCalculo01.Funcoes.Extras {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Funcoes\\Extras\\FuncaoConstante.xaml")]
     public partial class FuncaoConstante : global::Xamarin.Forms.ContentPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(FuncaoConstante));
         }

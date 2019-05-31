@@ -1,7 +1,13 @@
 AppCalculo01
 FormsViewGroup
+Microcharts
+Microcharts.Droid
+Microcharts.Forms
 Plugin.Iconize
 Plugin.Iconize.FontAwesome
+SkiaSharp
+SkiaSharp.Views.Android
+SkiaSharp.Views.Forms
 Syncfusion.Calculate.Portable
 System.Runtime
 Xamarin.Android.Arch.Core.Common
@@ -30,3 +36,4 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+System.Collections
