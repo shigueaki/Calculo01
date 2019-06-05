@@ -5,8 +5,8 @@
              Title="Teste você mesmo"
              xmlns:local="clr-namespace:AppCalculo01.Models">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="5">
+        <ScrollView Orientation="Vertical">
+            <StackLayout Padding="20" BackgroundColor="White">
                 <Label Text="Tipo de Intervalo"/>
             
                 <Grid x:Name="DefinicaoGrid"  

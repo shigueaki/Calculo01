@@ -17,19 +17,25 @@ namespace AppCalculo01.Views.Funcoes {
     public partial class GraficosTeste : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
+        private global::Xamarin.Forms.Picker pckTipoFuncao;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
+        private global::Xamarin.Forms.Label lblA;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private global::AppCalculo01.Models.SoftkeyboardDisabledEntry txtFuncao;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
-        private global::Xamarin.Forms.Label lblX;
+        private global::Xamarin.Forms.Label lblB;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
-        private global::Xamarin.Forms.Entry txtX;
+        private global::AppCalculo01.Models.SoftkeyboardDisabledEntry txtB;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
-        private global::Xamarin.Forms.Label lblY;
+        private global::Xamarin.Forms.Label lblC;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
-        private global::Xamarin.Forms.Stepper stpY;
+        private global::AppCalculo01.Models.SoftkeyboardDisabledEntry txtC;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private global::Xamarin.Forms.Button btnCalcular;
@@ -38,18 +44,24 @@ namespace AppCalculo01.Views.Funcoes {
         private global::Microcharts.Forms.ChartView cvGrafico;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
+        private global::Xamarin.Forms.Label lblResposta;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private global::Xamarin.Forms.Grid CustomKeyBoardLayout;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(GraficosTeste));
+            pckTipoFuncao = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "pckTipoFuncao");
+            lblA = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblA");
             txtFuncao = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::AppCalculo01.Models.SoftkeyboardDisabledEntry>(this, "txtFuncao");
-            lblX = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblX");
-            txtX = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "txtX");
-            lblY = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblY");
-            stpY = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Stepper>(this, "stpY");
+            lblB = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblB");
+            txtB = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::AppCalculo01.Models.SoftkeyboardDisabledEntry>(this, "txtB");
+            lblC = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblC");
+            txtC = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::AppCalculo01.Models.SoftkeyboardDisabledEntry>(this, "txtC");
             btnCalcular = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnCalcular");
             cvGrafico = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Microcharts.Forms.ChartView>(this, "cvGrafico");
+            lblResposta = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblResposta");
             CustomKeyBoardLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "CustomKeyBoardLayout");
         }
     }

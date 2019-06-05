@@ -4,7 +4,7 @@
              x:Class="AppCalculo01.Views.NumerosReais.ConjuntosNumericos.ConjuntosNumericosTeste"
              xmlns:local="clr-namespace:AppCalculo01.Models">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="20" BackgroundColor="White">
             <Label Text="Digite um número que pode ser inteiro, fracionado, positivo ou negativo"
                 VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" 

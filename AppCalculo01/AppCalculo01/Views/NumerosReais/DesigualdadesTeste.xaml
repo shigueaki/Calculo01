@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppCalculo01.Views.NumerosReais.DesigualdadesTeste"
+             Title="Teste você mesmo">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout Padding="20" BackgroundColor="White">
+                <Picker x:Name="pckTipo" HorizontalOptions="Center"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="5*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label x:Name="lblA" Text="A=" Grid.Column="0" Grid.Row="0"/>
+                    <Entry Keyboard="Numeric" x:Name="txtA" Placeholder="Digite um número"
+                           Grid.Column="1" Grid.Row="0"/>
+
+                    <Label x:Name="lblB" Text="B=" Grid.Column="0" Grid.Row="1"/>
+                    <Entry Keyboard="Numeric" x:Name="txtB" Placeholder="Digite um número"
+                           Grid.Column="1" Grid.Row="1"/>
+                </Grid>
+                <Button x:Name="btnCalcular" Text="Cálcular" Clicked="BtnCalcular_Clicked"/>
+                <Label x:Name="lblResposta" Text="" 
+                       HorizontalOptions="FillAndExpand" 
+                       VerticalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Center"
+                       FontSize="Large"
+                       FontAttributes="Bold"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

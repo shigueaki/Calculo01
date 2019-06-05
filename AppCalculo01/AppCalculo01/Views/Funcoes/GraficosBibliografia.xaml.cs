@@ -15,6 +15,7 @@ namespace AppCalculo01.Views.Funcoes
         public GraficosBibliografia()
         {
             InitializeComponent();
+            lblVideo.Text = "descomplica. O QUE SÃO FUNÇÕES MATEMÁTICAS? | QUER QUE DESENHE? | DESCOMPLICA. 2018. (6m08s). Disponível em: <" + "https://www.youtube.com/watch?v=xpv-SWbDUr8&t=2s" + ">. Acesso em: 05 jun. 2019.";
         }
     }
 }

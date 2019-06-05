@@ -14,7 +14,7 @@ namespace AppCalculo01.NumerosReais {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\NumerosReais\\Desigualdades.xaml")]
-    public partial class Desigualdades : global::Xamarin.Forms.ContentPage {
+    public partial class Desigualdades : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "4.0.0.0")]
         private void InitializeComponent() {

@@ -12,6 +12,11 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="Center"
                 Margin="0, 15, 0, 0"/>
+
+            <Label x:Name="lblVideo"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Margin="0, 15, 0, 0"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

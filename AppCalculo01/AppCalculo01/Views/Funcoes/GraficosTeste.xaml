@@ -12,7 +12,18 @@
     <ContentPage.Content>
         <ScrollView Orientation="Vertical">
             <StackLayout Padding="20" BackgroundColor="White">
-                <Grid>
+                
+                <Picker Title="Tipo da Função" x:Name="pckTipoFuncao" 
+                        SelectedIndexChanged="PckTipoFuncao_SelectedIndexChanged">
+                    <Picker.Items>
+                        <x:String>Afim</x:String>
+                        <x:String>Quadrática</x:String>
+                        <x:String>Exponencial</x:String>
+                        <x:String>Logarítimica</x:String>
+                        <x:String>Trigonométricas</x:String>
+                    </Picker.Items>
+                </Picker>
+                    <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="6*"/>
@@ -24,16 +35,35 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
-                    <Label Text="f(x)=" Grid.Column="0" FontSize="Large"
-                       Grid.Row="0"/>
+                    <Label Text="ax=" Grid.Column="0" FontSize="Medium" FontAttributes="Bold"
+                       Grid.Row="0" x:Name="lblA"/>
 
-                    <local:SoftkeyboardDisabledEntry Placeholder="Digite a função" 
+                    <local:SoftkeyboardDisabledEntry
                                                     Grid.Column="1"
                                                     x:Name="txtFuncao"
                                                     Focused="TxtFuncao_Focused"
                                                     Grid.Row="0"/>
 
-                    <Label Text="x=" Grid.Column="0" Grid.Row="1" FontSize="Large" x:Name="lblX"/>
+                    <Label Text="b=" Grid.Column="0" FontSize="Medium" FontAttributes="Bold"
+                       Grid.Row="1" x:Name="lblB"/>
+
+                    <local:SoftkeyboardDisabledEntry
+                                                    Grid.Column="1"
+                                                    x:Name="txtB"
+                                                    Focused="TxtB_Focused"
+                                                    Grid.Row="1"/>
+
+                    <Label Text="c=" Grid.Column="0" FontSize="Medium" FontAttributes="Bold"
+                       Grid.Row="2" x:Name="lblC"/>
+
+                    <local:SoftkeyboardDisabledEntry
+                                                    Grid.Column="1"
+                                                    x:Name="txtC"
+                                                    Focused="TxtC_Focused"
+                                                    Grid.Row="2"/>
+
+                    <!--   
+                    <Label Text="x=" Grid.Column="0" Grid.Row="1" FontSize="Medium" x:Name="lblX" FontAttributes="Bold"/>
                     <Entry Placeholder="Digite o valor de x" 
                        x:Name="txtX" 
                        Keyboard="Numeric"
@@ -46,13 +76,18 @@
                     <Stepper Minimum="1" Maximum="5" Increment="1" Value="1"
                          x:Name="stpY" 
                          ValueChanged="StpY_ValueChanged"
-                             Grid.Row="2" Grid.Column="1"/>
+                             Grid.Row="2" Grid.Column="1"/>-->
                 </Grid>
                 
 
 
                 <Button x:Name="btnCalcular" Text="Cálcular" Clicked="BtnCalcular_Clicked"/>
                 <forms:ChartView HeightRequest="250" x:Name="cvGrafico"/>
+                <Label x:Name="lblResposta" 
+                       HorizontalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Start"
+                       FontAttributes="Bold"
+                       IsVisible="False"/>
                 <!--<skia:SKCanvasView x:Name="canvasView" 
                                PaintSurface="CanvasView_PaintSurface" 
                                VerticalOptions="FillAndExpand"
@@ -98,7 +133,7 @@
                     <Button Text="*" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"/>
                     <Button Text="&gt;" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2"/>
                     <Button Text="&lt;" Clicked="KeyBoardButton_OnClicked" WidthRequest="35" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2"/>
-                    <Button Text="Limpar Tudo"  Clicked="KeyBoardButtonClear_OnClicked" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3"/>
+                    <Button Text="Limpar"  Clicked="KeyBoardButtonClear_OnClicked" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3"/>
                     <Button Text="Confirmar"  Clicked="KeyBoardButtonConfirmar_OnClicked" Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="3"/>
                 </Grid>
             </StackLayout>

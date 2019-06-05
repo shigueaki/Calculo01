@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppCalculo01.Views.NumerosReais.DesigualdadesConceito"
+             Title="Conceito">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout Padding="20" BackgroundColor="White">
+                <Label Text="Definição:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lbldefinicao01" FontSize="Small" TextColor="Black"/>
+                <Label Text="Axioma de Ordem:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lbldefinicao02" FontSize="Small" TextColor="Black"/>
+                <Label Text="Definição:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lbldefinicao03" FontSize="Small" TextColor="Black"/>
+                <Label Text="Propriedades:" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lbldefinicao04" FontSize="Small" TextColor="Black"/>
+                <Label Text="Prova da Propriedade (i):" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblexemplo01" FontSize="Small" TextColor="Black"/>
+                <Label Text="Propriedades (ii):" FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="lblexemplo02" FontSize="Small" TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

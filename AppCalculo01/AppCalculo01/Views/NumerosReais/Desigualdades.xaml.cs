@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace AppCalculo01.NumerosReais
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Desigualdades : ContentPage
+	public partial class Desigualdades : TabbedPage
 	{
 		public Desigualdades ()
 		{
